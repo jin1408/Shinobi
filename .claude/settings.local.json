@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(findstr:*)",
+      "Bash(ls -la \"c:\\\\Users\\\\jin14\\\\BranchQA_Shinobi\\\\Assets\\\\Scripts\\\\Enemy\"\" 2>/dev/null || ls -la \"/c/Users/jin14/BranchQA_Shinobi/Assets/Scripts/Enemy/\" 2>/dev/null || find /c/Users/jin14/BranchQA_Shinobi/Assets/Scripts/Enemy -type f -name \"*.cs \")",
+      "Bash(python:*)",
+      "Bash(where:*)",
+      "Bash(node --version:*)",
+      "Bash(pwsh --version)",
+      "Bash(node:*)",
+      "Bash(xxd:*)",
+      "Bash(find /c/Users/jin14/BranchQA_Shinobi/Assets -name *UI* -type f)",
+      "Bash(grep -r Canvas /c/Users/jin14/BranchQA_Shinobi/Assets --include=*.unity --include=*.prefab)",
+      "Bash(grep -r RectTransform /c/Users/jin14/BranchQA_Shinobi/Assets --include=*.cs)",
+      "Bash(grep !u!CanvasScaler /c/Users/jin14/BranchQA_Shinobi/Assets --include=*.unity --include=*.prefab -r)",
+      "Bash(find /c/Users/jin14/BranchQA_Shinobi/Assets -type f \\\\\\(-name *Canvas* -o -name *UI* \\\\\\) -not -path */Library/* -not -path */Packages/*)",
+      "Bash(grep -r \"Canvas\\\\|RectTransform\\\\|CanvasScaler\" /c/Users/jin14/BranchQA_Shinobi/Assets/Scripts --include=*.cs)"
+    ]
+  }
+}
